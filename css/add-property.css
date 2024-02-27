@@ -1,0 +1,81 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    gap: 3rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+.wrapper .top{
+    display: flex;
+    justify-content: space-between;
+
+}
+.wrapper .top a{
+    color:forestgreen;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.wrapper .top p{
+    font-weight: bold;
+}
+.list{
+    display:flex;
+    flex-direction: column;
+    gap:1.1rem;
+}
+.list .box{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.box p{
+    font-weight: bold;
+}
+.box input, textarea, select{
+    padding: 0.5rem 0.3rem;
+    outline: none;
+    border-color: rgb(196, 194, 194);
+    border-width: 1px;
+    border-radius:0.3rem ;
+}
+textarea{
+    resize: none;
+}
+
+.notice{
+  background-color:lightgreen;
+  width: fit-content;
+  height: fit-content;
+  font-size: 0.9rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem
+}
+.pick{
+  border: 1px solid rgba(196, 194, 194);
+  padding: 0.3rem
+}
+.flex-btm{
+  display:flex;
+  flex-direction: column;
+  gap: 0.5rem
+}
+.flex-btm .flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+.flex-btm .flex img{
+  width: 38px
+}

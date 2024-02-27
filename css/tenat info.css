@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box
+}
+body{
+  font-family: sans-serif;
+}
+.wrapper{
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  width:350px;
+  margin: 0 auto;
+  margin-top:1rem
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0rem 0.5rem;
+  margin-top: 1.3rem
+}
+header .wrap img{
+  width: 28px
+}
+header .wrap{
+  position: relative;
+}
+header .wrap .notification{
+  position: absolute;
+  background:red;
+  padding: 0.2rem;
+  font-size: 0.65rem;
+  width: fit-content;
+  color: white; 
+  height: fit-content;
+  border-radius: 50%;
+  right:0.2rem;
+  bottom: 0.5rem;
+}
+.tenant-wrap{
+  background:lightgray;
+  width: 100%;
+  height: fit-content;
+  padding:1.4rem 0.7rem;
+  position: relative;
+  margin-top: 1rem;
+}
+.modal{
+  position: absolute;
+  right:1.3rem;
+  width:100px;
+  height: fit-content;
+  font-size: 0.7rem;
+  top:2.3rem;
+  display:flex;
+  background-color: white;
+  flex-direction: column;
+  gap:0.4rem;
+  box-shadow: 2px 1px 3px 0px;
+  border-radius: 0.3rem;
+  z-index:2;
+  padding:0.6rem 0.7rem
+}
+.tenant-wrap .btm .pic img{
+   width: 100px;
+   object-fit: cover;
+   border-radius: 0.5rem
+}
+.tenant-wrap .btm{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:1.5rem
+} 
+.spot{
+  display: flex;
+  justify-content: flex-end;
+  color: forestgreen
+}
+.tenant-wrap .btm .right .btn button{
+  display:flex;
+  align-items: center;
+  gap: 0.5rem;
+  border:none;
+  padding: 0.3rem 0.7rem;
+  color: lime;
+  font-weight: bold;
+  background:forestgreen;
+  border-radius: 0.3rem
+}
+.tenant-wrap .btm .right .btn button img{
+  width:25px
+}
+.tenant-wrap .btm .right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.98rem;
+  text-align: center;
+  gap:0.5rem
+}
+.tenant-wrap .btm .right .name{
+  font-weight: bold
+}
+.flex-con{
+  display: flex;
+  gap:0.5rem;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 0.8rem
+}
+.flex-con .box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 320px;
+  height: fit-content;
+  border-radius: 0.3rem;
+  margin: 0 auto;
+  padding: 0.5rem 0rem;
+  justify-content: space-around
+}
+.flex-con .box:nth-child(1){
+  background: orange
+}
+.flex-con .box:nth-child(2){
+  background: green
+}
+.flex-con .box button{
+  background: transparent;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  border-radius:0.4rem;
+  color: white
+}
+.info-wrap{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0rem 1rem;
+  margin-top: 1.7rem
+}
+.info-wrap .box{
+  display:flex;
+  justify-content: space-between;
+  border-bottom: 1px solid forestgreen;
+  padding-bottom: 0.4rem;
+  font-size: 0.9rem
+}
+.btm-flex{
+  display:flex;
+  flex-direction: column;
+  gap:0.5rem;
+  padding: 0rem 1rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1rem
+}
+.btm-flex img{
+  width: 35px
+}
+.btm-flex .title{
+  font-size: 1.2rem;
+  font-weight: bold
+}
+.btm-flex .box{
+  border: 1px solid forestgreen;
+  display: flex;
+} 
+.btm-flex .box{
+  display: flex ;
+  align-items: center;
+  padding-top:0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  Justify-content:space-between;
+  width: 320px;
+  height: fit-content;
+  margin: 0 auto;
+  border: 1px solid forestgreen;
+  border-radius: 0.4rem;
+}
+.btm-flex .box img{
+  width: 35px;
+  object-fit: cover;
+  border-radius: 0.3rem
+}
+.btm-flex .box .spot{
+  margin-top: 0.3rem;
+  color:green
+}
+.btm-flex .box .left{
+  display: flex;
+  align-items: center;
+  gap: 0.4rem
+}

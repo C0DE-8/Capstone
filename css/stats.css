@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box
+}
+body{
+  font-family: sans-serif
+}
+header{
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  margin-top:1.5rem
+}
+header .wrap{
+  display: flex;
+  border: 1px solid limegreen;
+  padding-top: 0.2rem ;
+  padding-bottom: 0.2rem;
+  padding-right: 0.6rem;
+  align-items: center;
+  border-radius: 0.3rem;
+  gap: 0.2rem
+}
+header .wrap p{
+  font-size:0.7rem;
+  font-weight: bold
+}
+header .wrap img{
+  width: 30px
+}
+.stat-con{
+  display: flex;
+  justify-content:center;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.stats-info{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-top: 3rem;
+}
+.stats-info .box{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  border: 1px solid black;
+  font-size: 0.87rem;
+  padding: 0.3rem;
+  width:167px;
+  height: fit-content;
+  border-radius:0.3rem
+   
+}
+.date-flex{
+  display: flex;
+  justify-content: center;
+  margin:1rem 0rem;
+  align-items: center;
+  gap:0.7rem 
+}
+.date-flex .box{
+  display: flex;
+  gap: 0.3rem
+}
+.date-flex .box p{
+  font-size:0.7rem
+}
+.date-flex .box .cir1, .cir2{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+}
+.cir1{
+  background:green
+}
+.cir2{
+  background: yellow
+}

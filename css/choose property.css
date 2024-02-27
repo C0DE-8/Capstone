@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    gap: 3rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+.wrapper .top{
+  display: flex;
+  gap:3.5rem
+}
+.wrapper .top a{
+  color: forestgreen;
+  text-decoration:none
+}
+.wrapper .top .street{
+  font-weight: bold
+}
+.wrapper .big{
+  display: flex;
+  gap: 1.5rem
+}
+.wrapper .big .left img{
+  width: 160px
+}
+.wrapper .big .right .top p{
+  color:forestgreen
+}
+.flex-con{
+  display: flex;
+  gap: 0.6rem
+}
+.flex-con .box{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  padding:0.4rem;
+  border-radius: 0.4rem;
+  background: lightgreen;
+  gap: 0.4rem
+}
+.flex-con .box .pic img{
+  width:80px;
+  height:70px;
+  border-radius: 0.4rem;
+  object-fit: cover
+}
+.flex-con .box p{
+  font-size: 0.89rem
+}
